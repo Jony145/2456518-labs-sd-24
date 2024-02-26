@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        header {
+            display: flex;
+            flex-direction: row;
+            background-color:rgb(36, 35, 35);
+            color: white;
+        }
+        footer{
+            background-color: rgb(36, 35, 35);
+            color: white;
+            font-size: medium;
+        }
+        h2 {
+            margin-inline: auto;
+        }
+        nav{
+            margin: auto
+        }
+        a{
+            padding: 0 10px;
+        }
+        main {
+            display: flex;
+            flex-direction: column;
+        }
+        .horzCont {
+            display: flex;
+
+        }
+        section {
+            margin: auto;
+            border: 0.1px solid  gray;
+        }
+        p {
+            text-align: center;
+        }
+        h4 {
+            text-align: center;
+            margin: auto;
+
+        }
+        img {
+            margin-left: auto;
+            margin-right: auto;
+            padding: 0 10px 10px;
+        }
+    </style>
+    
+</head>
+<body>
+    <header>
+        <h2>Welcome to Software Design Website</h2>
+        <nav> 
+            <a>About Us</a>
+            <a>Services</a>
+            <a>Contact Us</a>
+        </nav>
+    </header>
+
+    <main>
+        <h3 style="margin: 20px auto 5px">About Us</h3>
+        <p>We are a company dedicated to providing excellent services to our customers.</p>
+        <img src="Tetris.jpg"  style="width:600px;height:400px;">
+
+
+        <h3 style="margin: 20px auto 5px"> Our Services</h3>
+        
+        <section class="horzCont" >
+            <section>
+                <h4>Web Development</h4>
+                <p>We specialize in creating responsive and user-friendly websites.</p>
+                <img src="Tetris.jpg" style="width:600px;height:400px;">
+            </section>
+
+            <section>
+                <h4>Graphic Design</h4>
+                <p>Our talented designers can bring your ideas to life with stunning visuals.</p>
+                <img src="Tetris.jpg" style="width:600px;height:400px;">
+            </section>
+
+        </section>
+
+    </main>
+
+    <footer>
+        <p style="text-align: center; padding: 10px;">&copy; 2024 The Lucky Company. All rights reserved</p>
+    </footer>
+</body>
+</html>
